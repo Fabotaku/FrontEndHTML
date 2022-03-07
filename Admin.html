@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<background img src="./img/FondoPasteleria.jpg"></background>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fabo's Cake</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <img src="./img/LogoPasteleria.png" alt="Pasteleria logo" class="center">
+    <h1 style="text-align:center">Pastelero</h1>
+    <form action="inventario.js" class="form-pedidos">
+        <label>Sabores restantes</label>
+        <table>
+            <tr>
+                <th >Vainilla</th>
+                <th >Chocolate</th>
+                <th >Fresa</th>
+                <th >Limon</th>
+                <th >Tres leches</th>
+                <th >Pistacho</th>
+            </tr>
+            <tr>
+                <th>10</th>
+                <th>10</th>
+                <th>10</th>
+                <th>10</th>
+                <th>10</th>
+                <th>10</th>
+            </tr>
+        </table>
+        <br>
+        <label>Adornos restantes</label>
+        <table>
+            <tr>
+                <th >Letras</th>
+                <th >Letrero con letras</th>
+                <th >Dibujo</th>
+                <th >Lazos</th>
+            </tr>
+            <tr>
+                <th>10</th>
+                <th>10</th>
+                <th>10</th>
+                <th>10</th>
+            </tr>
+        </table>
+    </form>
+    <br>
+    <h2 style="text-align:center">Pedidos recibidos</h2>
+    <form action="pedidosrecibidos.js" class="form-pedidos">
+        <table>
+            <tr>
+                <th >Nombre</th>
+                <th>X</th>
+            </tr>
+            <tr>
+                <th>Telefono</th>
+                <th>Y</th>
+            </tr>
+            <tr>
+                <th>Correo electronico</th>
+                <th>Z@ejemplo.com</th>
+            </tr>
+            <tr>
+                <th>Sabor</th>
+                <th align="left">
+                    <input type="checkbox" name="Vainilla" id="Sabor" checked="false">
+                    <label for="Vainilla">Vainilla</label><br>
+                    <input type="checkbox" checked="false" name="Chocolate" id="Sabor">
+                    <label for="Chocolate">Chocolate</label><br>
+                    <input type="checkbox" checked="false" name="Fresa" id="Sabor">
+                    <label for="Fresa">Fresa</label><br>
+                    <input type="checkbox" checked="false" name="Limon" id="Sabor">
+                    <label for="Limon">Limon</label><br>
+                    <input type="checkbox" checked name="Tres leches" id="Sabor">
+                    <label for="Tres leches">Tres leches</label><br>
+                    <input type="checkbox" checked name="Pistacho" id="Sabor">
+                    <label for="Tres leches">Pistacho</label><br>
+                </th>
+            </tr>
+            <tr>
+                <th>Adorno</th>
+                <th align="left">
+                    <input type="checkbox" name="Letras en pastel" id="Adorno">
+                    <label for="Letras en pastel">Letras en pastel</label><br>
+                    <input type="checkbox" name="Letrero" id="Adorno">
+                    <label for="Letrero">Letrero</label><br>
+                    <input type="checkbox" name="Dibujo en pastel" id="Adorno">
+                    <label for="Dibujo en pastel">Dibujo en pastel</label><br>
+                    <input type="checkbox" name="Lazos" id="Adorno">
+                    <label for="Lazos">Lazos</label><br>
+                </th>
+            </tr>
+            <tr>
+                <th>Descripcion</th>
+                <th  align="left">Descripcion del pedido </th>
+            </tr>
+        </table>
+    </form>
+    <br>
+    <div class="bottom-buttons">
+        <a href="./Menu.html">Menu</a>
+    </div>
+</body>
+
+</html>
